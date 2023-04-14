@@ -56,7 +56,6 @@ h1 {
 
 section {
     margin-top: 8rem;
-    height: 130vh;
 }
 
 section > h2, section > h5{
@@ -127,6 +126,6 @@ img {
     }
 
     section {
-        margin-top: 20rem;
+        margin-top: 2rem;
     }
 }
