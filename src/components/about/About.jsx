@@ -14,10 +14,11 @@ const About = () => {
     <section id='about'>
       <h2>About Me</h2>
       <div className='container about_paragraph'>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, similique officiis. Mollitia minus esse suscipit distinctio tempore molestias consequuntur quas.</p>
+        <p>Hey, I'm Alex. I'm a software engineering student situated in Auckland, New Zealand.</p>
+        <p>I'm passionate about anything software, and am on the search for any summer 2023 internship opportunities in New Zealand or Australia.</p>
       </div>
       <h2>My Skills</h2>
-      <div className='containter about_container'>
+      <div className='container about_container'>
         <div className='about_languages'>
           <h3>Languages</h3>
           <div className='about_content'>

@@ -1,6 +1,8 @@
 .about_container{
     display: grid;
     grid-template-columns:1fr 1fr;
+    justify-content: center;
+    gap: 1rem;    
 }
 
 .about_paragraph{
@@ -15,7 +17,6 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
-    margin:50px;
 }
 
 .about_container > div:hover, .about_paragraph:hover {
@@ -31,14 +32,15 @@
 }
 
 .about_content {
-    display: grid;
-    position:relative;
-    left:15%;
+    justify-content:center;
+    margin:auto;
+    text-align: center;
 }
 
 .about_details {
-    display: table-column;
-    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 0.5rem;
 }
 
 

@@ -1,4 +1,5 @@
 .portfolio_container {
+    text-align: center;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2.5rem;
@@ -27,6 +28,7 @@
 }
 
 .portfolio_item-cta {
+    justify-content: center;
     display:flex;
     gap: 1rem;
     margin-bottom: 1rem;
