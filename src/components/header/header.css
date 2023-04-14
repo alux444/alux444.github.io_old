@@ -1,6 +1,6 @@
 header {
-    height:100vh;
-    padding-top: 7rem;
+    height:130vh;
+    padding-top: 5rem;
     overflow:hidden;
 }
 
@@ -62,13 +62,13 @@ header {
 /* media queries */
 @media screen and (max-width: 1024px) {
     header{
-        height: 68vh;
+        height: 80vh;
     }
 }
 
 @media screen and (max-width: 600px) {
     header{
-        height: 100vh;
+        height: 130vh;
     }
 
     .header_socials, .scroll_down{
