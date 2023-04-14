@@ -1,0 +1,40 @@
+.contact_container {
+    font-size:1.5rem;
+    width: 58%;
+    display:grid;
+}
+
+.contact_options {
+    display:flex;
+    flex-direction: row;
+    gap: 1.2rem;
+    margin: auto;
+}
+
+.contact_option {
+    background: var(--color-bg-variant);
+    padding: 2rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.contact_option:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+}
+
+/* media queries */
+
+@media screen and (max-width:1024px) {
+.contact_container {
+    font-size:1.3rem;
+}
+}
+
+@media screen and (max-width:600px) {
+    .contact_container {
+        font-size:1rem;
+    }
+}
