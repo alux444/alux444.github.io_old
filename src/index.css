@@ -56,7 +56,7 @@ h1 {
 
 section {
     margin-top: 8rem;
-    height: 100vh;
+    height: 130vh;
 }
 
 section > h2, section > h5{
@@ -121,12 +121,12 @@ img {
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 600px) {
     .container{
         width: var(--container-width-sm)
     }
 
     section {
-        margin-top: 2rem;
+        margin-top: 20rem;
     }
 }
