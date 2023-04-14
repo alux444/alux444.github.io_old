@@ -113,7 +113,7 @@ img {
 /* media queries for other screens */
 @media screen and (max-width: 1024px) {
     .container{
-        width: var(--container-width-md)
+        width: var(--container-width-md);
     }
 
     section {
@@ -123,7 +123,7 @@ img {
 
 @media screen and (max-width: 600px) {
     .container{
-        width: var(--container-width-sm)
+        width: var(--container-width-sm);
     }
 
     section {
