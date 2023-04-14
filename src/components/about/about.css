@@ -17,3 +17,44 @@
     display:grid;
     place-items: center;
 }
+
+.about_me-image{
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: var(--transition);
+}
+
+.about_me-image:hover{
+    transform: rotate(0);
+}
+
+.about_cards{
+    display: grid;
+    grid-template-columns: repaet(3,1fr);
+    gap: 1.5rem;
+}
+
+.about_card{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.about_card:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor:default;
+}
+
+.about_icons, h5{
+    color: var(--color-primary);
+    font-size:1.5rem;
+}
+
+.about_content p {
+    margin: 2rem 0 2.6rem;
+    color: var(--color-light);
+}
