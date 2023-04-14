@@ -23,30 +23,30 @@ const About = () => {
           </div>
         </div>
 
-      <div>
+      <div className='about_content'>
         <div className='about_cards'>
           <article className='about_card'>
             <h5>Languages</h5>
-            <p>Java <DiJava className="about_icons"/></p>
-            <p>JavaScript <DiJavascript1 className="about_icons"/></p>
-            <p>C <SiC className="about_icons"/></p>
-            <p>HTML <AiFillHtml5 className="about_icons"/></p>
-            <p>CSS <DiCss3 className="about_icons"/></p>
-            <p>MATLAB</p>
+            <h6>Java <DiJava className="about_icons"/></h6>
+            <h6>JavaScript <DiJavascript1 className="about_icons"/></h6>
+            <h6>C <SiC className="about_icons"/></h6>
+            <h6>HTML <AiFillHtml5 className="about_icons"/></h6>
+            <h6>CSS <DiCss3 className="about_icons"/></h6>
+            <h6>MATLAB</h6>
           </article>
 
           <article className='about_card'>
             <h5>Frameworks</h5>
-            <p>React <FaReact className="about_icons"/></p>
+            <h6>React <FaReact className="about_icons"/></h6>
           </article>
 
           <article className='about_card'>
             <h5>Tools</h5>
-            <p>Git <AiFillGithub className="about_icons"/></p>
-            <p>GitHub <AiFillGithub className="about_icons"/></p>
+            <h6>Git <AiFillGithub className="about_icons"/></h6>
+            <h6>GitHub <AiFillGithub className="about_icons"/></h6>
           </article>
 
-          <p className='about_content'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo voluptates consectetur officia eius nesciunt asperiores illo exercitationem! Non sed excepturi, error eaque in vel eligendi iure blanditiis deserunt nihil consequuntur?</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo voluptates consectetur officia eius nesciunt asperiores illo exercitationem! Non sed excepturi, error eaque in vel eligendi iure blanditiis deserunt nihil consequuntur?</p>
 
           <a href="#contact" className='btn btn-primary'>Contact Me!</a>
         </div>
