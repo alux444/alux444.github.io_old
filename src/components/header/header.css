@@ -1,76 +1,75 @@
 header {
-    height:110vh;
-    padding-top: 5rem;
-    overflow:hidden;
+  height: 100vh;
+  padding-top: 5rem;
+  overflow: hidden;
 }
 
 .header_container {
-    text-align: center;
-    height: 100%;
-    position: relative;
+  text-align: center;
+  height: 100%;
+  position: relative;
 }
 
 /* CTA */
 .cta {
-    margin-top: 2.5rem;
-    display:flex;
-    gap: 1rem;
-    justify-content: center;
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
 }
 
 /* header socials */
 .header_socials {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.8rem;
-    position: absolute;
-    left: 0;
-    bottom: 35rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  position: absolute;
+  left: 0;
+  bottom: 35rem;
 }
 
-.header_socials::after{
-    content: "";
-    width: 1px;
-    height:2rem;
-    color:var(--color-primary);
+.header_socials::after {
+  content: "";
+  width: 1px;
+  height: 2rem;
+  color: var(--color-primary);
 }
 
 /* image */
-.me{
-    background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
-    height: 30rem;
-    position:absolute;
-    left: calc(50% - 11rem);
-    margin-top:2rem;
-    border-radius: 3rem 3rem 3rem 3rem;
-    overflow:hidden;
+.me {
+  background: linear-gradient(var(--color-primary), transparent);
+  width: 22rem;
+  height: 30rem;
+  position: absolute;
+  left: calc(50% - 11rem);
+  margin-top: 2rem;
+  border-radius: 3rem 3rem 3rem 3rem;
+  overflow: hidden;
 }
 
 /* scrolldown button */
 .scroll_down {
-    position:absolute;
-    right: -2.3rem;
-    bottom: 25rem;
-    font-weight: 300;
-    font-size: 0.9rem;
+  position: absolute;
+  right: -2.3rem;
+  bottom: 25rem;
+  font-weight: 300;
+  font-size: 0.9rem;
 }
 
 /* media queries */
 @media screen and (max-width: 1024px) {
-    header{
-       
-    }
+  header {
+  }
 }
 
 .header_socials {
-    bottom: 15rem;
+  bottom: 15rem;
 }
 
 @media screen and (max-width: 600px) {
-
-    .header_socials, .scroll_down{
-        display:none;
-    }
+  .header_socials,
+  .scroll_down {
+    display: none;
+  }
 }
