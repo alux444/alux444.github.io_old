@@ -7,6 +7,7 @@ import { DiCss3 } from "react-icons/di";
 import { SiC } from "react-icons/si";
 import { AiFillGithub } from "react-icons/ai";
 import { FaReact } from "react-icons/fa";
+import { SiMui } from "react-icons/si";
 
 const About = () => {
   return (
@@ -68,6 +69,9 @@ const About = () => {
               </h4>
               <h4>
                 <AiFillGithub className="about_icons" /> Github
+              </h4>
+              <h4>
+                <SiMui classname="about_icons" /> MaterialsUI
               </h4>
             </article>
           </div>

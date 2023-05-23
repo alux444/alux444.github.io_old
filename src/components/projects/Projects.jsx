@@ -3,6 +3,7 @@ import "./projects.css";
 import PROJECT1 from "../../img/website.png";
 import PROJECT2 from "../../img/weatherApp.png";
 import FitnessApp from "../../img/fitnessApp.png";
+import weatherApp2 from "../../img/weatherApp2.png";
 
 const data = [
   {
@@ -46,6 +47,50 @@ const Projects = () => {
       <h2>Projects</h2>
 
       <div className="container portfolio_container">
+        <article className="portfolio_item">
+          <div classname="container portfolio_container">
+            <div className="portfolio_item-image">
+              <img src={weatherApp2} alt="weather2" />
+            </div>
+            <h3>Weather App V2</h3>
+            <small>
+              This is a revisted version of my previous weather project.
+            </small>
+            <br />
+            <small>
+              This app calls from WeatherAPI.com for weather and forecast
+              information.
+            </small>
+            <br />
+            <small>
+              It includes multiple improvements in functionality and features,
+              implementing new react tools and is styled using MaterialUI.
+            </small>
+            <br />
+            <p>
+              Skills: React, Javascript, HTML, CSS (MaterialsUI), WeatherAPI.com
+            </p>
+            <div className="portfolio_item-cta">
+              <a
+                href="https://alux444.github.io/weather-remastered/"
+                target="_blank"
+                rel="noreferrer"
+                className="btn"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://github.com/alux444/weather-remastered"
+                target="_blank"
+                rel="noreferrer"
+                className="btn"
+              >
+                Link
+              </a>
+            </div>
+          </div>
+        </article>
+
         {data.map(({ id, image, title, github, skills, description, link }) => {
           return (
             <article key={id} className="portfolio_item">
