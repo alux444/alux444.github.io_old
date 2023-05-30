@@ -1,12 +1,14 @@
 .portfolio_container {
   text-align: center;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2.5rem;
-  width: 80vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  width: 90vw;
 }
 
 .portfolio_item {
+  width: 45%;
   background: var(--color-bg-variant);
   padding: 1.2rem;
   border-radius: 2rem;
@@ -41,16 +43,14 @@
 }
 
 /* media queries */
-@media screen and (max-width: 1024px) {
-  .portfolio_container {
-    grid-template-columns: 1fr 1fr;
-    gap: 1.2rem;
+@media screen and (max-width: 1200px) {
+  .portfolio_item {
+    width: 80%;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .portfolio_container {
-    grid-template-columns: repeat(1, 1fr);
-    gap: 1rem;
+  .portfolio_item {
+    width: 100%;
   }
 }

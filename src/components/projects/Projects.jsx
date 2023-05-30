@@ -72,7 +72,7 @@ const Projects = () => {
             </p>
             <div className="portfolio_item-cta">
               <a
-                href="https://alux444.github.io/weather-remastered/"
+                href="https://github.com/alux444/weather-remastered"
                 target="_blank"
                 rel="noreferrer"
                 className="btn"
@@ -80,7 +80,7 @@ const Projects = () => {
                 GitHub
               </a>
               <a
-                href="https://github.com/alux444/weather-remastered"
+                href="https://alux444.github.io/weather-remastered/"
                 target="_blank"
                 rel="noreferrer"
                 className="btn"
@@ -117,6 +117,33 @@ const Projects = () => {
             </article>
           );
         })}
+
+        <article className="portfolio_item">
+          <div classname="container portfolio_container">
+            <div className="portfolio_item-image"></div>
+            <h3>I'm currently working on...</h3>
+            <h4>A Fullstack Chat-App</h4>
+            <br />
+            <p>The frontend is built off React and styled with MaterialsUI.</p>
+            <p>The user and message database uses PostgreSQL.</p>
+            <p>
+              The server and session uses ExpressJS and Redis, with SocketsIO
+              for live communication with the server
+            </p>
+            <br />
+            <small>Check out the repository progress!</small>
+            <div className="portfolio_item-cta">
+              <a
+                href="https://github.com/alux444/chat-app"
+                target="_blank"
+                rel="noreferrer"
+                className="btn"
+              >
+                GitHub
+              </a>
+            </div>
+          </div>
+        </article>
       </div>
     </section>
   );

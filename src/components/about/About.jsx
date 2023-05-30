@@ -8,6 +8,10 @@ import { SiC } from "react-icons/si";
 import { AiFillGithub } from "react-icons/ai";
 import { FaReact } from "react-icons/fa";
 import { SiMui } from "react-icons/si";
+import { SiPostgresql } from "react-icons/si";
+import { SiRedis } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
+import { SiSocketdotio } from "react-icons/si";
 
 const About = () => {
   return (
@@ -45,6 +49,9 @@ const About = () => {
                 <DiJavascript1 className="about_icons" /> JavaScript
               </h4>
               <h4>
+                <SiPostgresql className="about_icons" /> SQL (PostgreSQL)
+              </h4>
+              <h4>
                 <SiC className="about_icons" /> C
               </h4>
               <h4>
@@ -72,6 +79,15 @@ const About = () => {
               </h4>
               <h4>
                 <SiMui classname="about_icons" /> MaterialsUI
+              </h4>
+              <h4>
+                <SiRedis classname="about_icons" /> Redis DB
+              </h4>
+              <h4>
+                <SiExpress classname="about_icons" /> ExpressJS
+              </h4>
+              <h4>
+                <SiSocketdotio classname="about_icons" /> SocketsIO
               </h4>
             </article>
           </div>
