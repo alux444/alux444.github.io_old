@@ -125,6 +125,10 @@ img {
 }
 
 @media screen and (max-width: 600px) {
+  * {
+    font-size: small;
+  }
+
   .container {
     width: var(--container-width-sm);
   }

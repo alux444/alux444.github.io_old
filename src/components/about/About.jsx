@@ -12,6 +12,7 @@ import { SiPostgresql } from "react-icons/si";
 import { SiRedis } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { SiSocketdotio } from "react-icons/si";
+import { SiFirebase } from "react-icons/si";
 
 const About = () => {
   return (
@@ -79,6 +80,9 @@ const About = () => {
               </h4>
               <h4>
                 <SiMui classname="about_icons" /> MaterialsUI
+              </h4>
+              <h4>
+                <SiFirebase className="about_icons" /> Firebase
               </h4>
               <h4>
                 <SiRedis classname="about_icons" /> Redis DB
