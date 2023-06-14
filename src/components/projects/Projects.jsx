@@ -1,7 +1,7 @@
 import React from "react";
 import "./projects.css";
 import PROJECT1 from "../../img/website.png";
-import PROJECT2 from "../../img/weatherApp.png";
+import chatapp from "../../img/chatapp.png";
 import FitnessApp from "../../img/fitnessApp.png";
 import weatherApp2 from "../../img/weatherApp2.png";
 
@@ -28,17 +28,6 @@ const data = [
     skills: "Skills : React, JavaScript, CSS, HTML",
     link: "https://alux444.github.io/",
   },
-
-  {
-    id: 2,
-    image: PROJECT2,
-    title: "Weather API Project",
-    github: "https://github.com/alux444/weather-api-project",
-    description:
-      "A simple react weather app which calls on API information from weatherAPI.com. All graphics are done by myself.",
-    skills: "Skills : React, JavaScript, CSS, HTML, RapidAPI/WeatherAPI.com",
-    link: "https://alux444.github.io/weather-api-project/",
-  },
 ];
 
 const Projects = () => {
@@ -47,6 +36,45 @@ const Projects = () => {
       <h2>Projects</h2>
 
       <div className="container portfolio_container">
+        <article className="portfolio_item">
+          <div classname="container portfolio_container">
+            <div className="portfolio_item-image">
+              <img src={chatapp} alt="weather2" />
+            </div>
+            <h3>Firebase Chatapp</h3>
+            <small>
+              This is a live messaging chat app built through React and
+              Firebase.
+              <br />
+              This project implements CI/CD practices through Github Actions,
+              allowing for continuous integration and deployment of the app.
+              <br />
+              Cloud firestore is used for the storing of users and messages, and
+              firebase authentication is used for the login.
+            </small>
+            <br />
+            <p>Skills : ReactJS, Firebase, JavaScript, GitHub Actions (CICD)</p>
+            <div className="portfolio_item-cta">
+              <a
+                href="https://github.com/alux444/firebase-chatapp"
+                target="_blank"
+                rel="noreferrer"
+                className="btn"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://alux444.github.io/firebase-chatapp/"
+                target="_blank"
+                rel="noreferrer"
+                className="btn"
+              >
+                Link
+              </a>
+            </div>
+          </div>
+        </article>
+
         <article className="portfolio_item">
           <div classname="container portfolio_container">
             <div className="portfolio_item-image">
@@ -118,7 +146,7 @@ const Projects = () => {
           );
         })}
 
-        <article className="portfolio_item">
+        {/* <article className="portfolio_item">
           <div classname="container portfolio_container">
             <div className="portfolio_item-image"></div>
             <h3>I'm currently working on...</h3>
@@ -143,7 +171,7 @@ const Projects = () => {
               </a>
             </div>
           </div>
-        </article>
+        </article> */}
       </div>
     </section>
   );
