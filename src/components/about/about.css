@@ -1,70 +1,72 @@
-.about_container{
-    display: grid;
-    grid-template-columns:1fr 1fr;
-    justify-content: center;
-    gap: 1rem;    
+.about_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  gap: 1rem;
 }
 
-.about_paragraph{
-    display: grid;
-    grid-template-columns: 1fr;
-    text-align: center;
+.about_paragraph {
+  width: 40vw;
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
 }
 
-.about_container > div, .about_paragraph {
-    background:var(--color-bg-variant);
-    padding: 2.4rem 5rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
-    transition: var(--transition);
+.about_container > div,
+.about_paragraph {
+  background: var(--color-bg-variant);
+  padding: 2.4rem 5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
 }
 
-.about_container > div:hover, .about_paragraph:hover {
-    background:transparent;
-    border-color: var(--color-primary-variant);
-    cursor:default;
+.about_container > div:hover,
+.about_paragraph:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
 }
 
 .about_container > div h3 {
-    text-align: center;
-    margin-bottom: 2rem;
-    color: var(--color-primary);
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--color-primary);
 }
 
 .about_content {
-    justify-content:center;
-    margin:auto;
-    text-align: center;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
 }
 
 .about_details {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    gap: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 0.5rem;
 }
-
 
 /* media queries */
 @media screen and (max-width: 1024px) {
-    .about_container{
-        grid-template-columns: 1fr;
-    }
+  .about_container {
+    grid-template-columns: 1fr;
+  }
 
-    .about_container > div {
-        padding: 2rem;
-        margin: 0 auto;
-        width:86%;
-    }
+  .about_container > div {
+    padding: 2rem;
+    margin: 0 auto;
+    width: 86%;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .about_container{
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
+  .about_container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 
-    .about_container > div {
-        padding: 2rem 1rem;
-        width:90%;
-    }
+  .about_container > div {
+    padding: 2rem 1rem;
+    width: 90%;
+  }
 }

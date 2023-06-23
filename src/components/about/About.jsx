@@ -11,14 +11,14 @@ import { SiMui } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
 import { SiRedis } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
-import { SiSocketdotio } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
 import { SiFirebase } from "react-icons/si";
 
 const About = () => {
   return (
     <section id="about">
       <h2>About Me</h2>
-      <div className="container about_paragraph">
+      <div className="ab_container about_paragraph">
         <p>
           Hey, I'm Alex. I'm a software engineering student situated in
           Auckland, New Zealand.
@@ -82,6 +82,9 @@ const About = () => {
                 <SiMui classname="about_icons" /> MaterialsUI
               </h4>
               <h4>
+                <SiTailwindcss classname="about_icons" /> TailwindCSS
+              </h4>
+              <h4>
                 <SiFirebase className="about_icons" /> Firebase
               </h4>
               <h4>
@@ -89,9 +92,6 @@ const About = () => {
               </h4>
               <h4>
                 <SiExpress classname="about_icons" /> ExpressJS
-              </h4>
-              <h4>
-                <SiSocketdotio classname="about_icons" /> SocketsIO
               </h4>
             </article>
           </div>

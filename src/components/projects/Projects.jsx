@@ -1,7 +1,7 @@
 import React from "react";
 import "./projects.css";
-import PROJECT1 from "../../img/website.png";
 import chatapp from "../../img/chatapp.png";
+import store from "../../img/store.png";
 import FitnessApp from "../../img/fitnessApp.png";
 import weatherApp2 from "../../img/weatherApp2.png";
 
@@ -17,17 +17,6 @@ const data = [
       "Skills : React, JavaScript, CSS, HTML, ExerciseDB and YoutubeSearch API",
     link: "https://alux444.github.io/project-fitness",
   },
-
-  {
-    id: 3,
-    image: PROJECT1,
-    title: "Portfolio Website Project",
-    github: "https://github.com/alux444/react-portfolio-project",
-    description:
-      "A simple react website created to display my portfolio. Includes my contact information, my skills, and my recent projects!",
-    skills: "Skills : React, JavaScript, CSS, HTML",
-    link: "https://alux444.github.io/",
-  },
 ];
 
 const Projects = () => {
@@ -35,7 +24,52 @@ const Projects = () => {
     <section id="projects">
       <h2>Projects</h2>
 
+      <div className="container portfolio_container"></div>
+
       <div className="container portfolio_container">
+        <article className="portfolio_item">
+          <div classname="container portfolio_container">
+            <div className="portfolio_item-image">
+              <img src={store} alt="store" />
+            </div>
+            <h3>Online Store with Admin Dashboard</h3>
+            <small>
+              This is an online store website, with an admin login to access a
+              dashboard. It is built by a team of 3.
+              <br />
+              The dashboard allows for CRUD operations on all the items in the
+              store.
+              <br />
+              The store displays items from a Firebase database, and includes
+              function cart and login features.
+              <br />
+              In this project I acted as a project manager - planning the
+              project and was in charge of managing the backend utilities used
+              by the frontend.
+            </small>
+            <br />
+            <p>Skills : ReactJS, Firebase, JavaScript, TailwindCSS</p>
+            <div className="portfolio_item-cta">
+              <a
+                href="https://github.com/alux444/online-store"
+                target="_blank"
+                rel="noreferrer"
+                className="btn"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://alux444.github.io/online-store/"
+                target="_blank"
+                rel="noreferrer"
+                className="btn"
+              >
+                Link
+              </a>
+            </div>
+          </div>
+        </article>
+
         <article className="portfolio_item">
           <div classname="container portfolio_container">
             <div className="portfolio_item-image">
@@ -50,7 +84,8 @@ const Projects = () => {
               allowing for continuous integration and deployment of the app.
               <br />
               Cloud firestore is used for the storing of users and messages, and
-              firebase authentication is used for the login.
+              firebase authentication is used for the login. Firebase storage is
+              used for image hosting.
             </small>
             <br />
             <p>Skills : ReactJS, Firebase, JavaScript, GitHub Actions (CICD)</p>

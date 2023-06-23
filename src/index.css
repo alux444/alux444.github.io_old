@@ -44,6 +44,11 @@ body {
   margin: 0 auto;
 }
 
+.ab_container {
+  width: 50%;
+  margin: 0 auto;
+}
+
 h1,
 h2,
 h3,
@@ -57,7 +62,7 @@ h1 {
 }
 
 section {
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 section > h2,
@@ -119,6 +124,10 @@ img {
     width: var(--container-width-md);
   }
 
+  .ab_container {
+    width: 70%;
+  }
+
   section {
     margin-top: 6rem;
   }
@@ -133,7 +142,11 @@ img {
     width: var(--container-width-sm);
   }
 
+  .ab_container {
+    width: 90%;
+  }
+
   section {
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
 }
