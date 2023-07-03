@@ -6,6 +6,7 @@ import { AiFillHtml5 } from "react-icons/ai";
 import { DiCss3 } from "react-icons/di";
 import { SiC } from "react-icons/si";
 import { AiFillGithub } from "react-icons/ai";
+import {SiPython} from "react-icons/si"
 import { FaReact } from "react-icons/fa";
 import { SiMui } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
@@ -62,6 +63,9 @@ const About = () => {
               </h4>
               <h4>
                 <DiJavascript1 className="about_icons" /> JavaScript |
+              </h4>
+              <h4>
+                <SiPython className="about_icons"/> Python |
               </h4>
               <h4>
                 <BsFiletypeSql className="about_icons" /> SQL |

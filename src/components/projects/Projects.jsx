@@ -32,7 +32,7 @@ const Projects = () => {
             <div className="portfolio_item-image">
               <img src={store} alt="store" />
             </div>
-            <h3>Online Store with Admin Dashboard</h3>
+            <h3>KiwiMart</h3>
             <small>
               This is an online store website, with an admin login to access a
               dashboard. It is built by a team of 3.
