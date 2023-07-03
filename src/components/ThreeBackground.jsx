@@ -46,7 +46,7 @@ const ThreeBackground = () => {
 
             const [x, y, z] = Array(3)
               .fill()
-              .map(() => THREE.MathUtils.randFloatSpread(50));
+              .map(() => THREE.MathUtils.randFloatSpread(40));
 
             star.position.set(x, y, z);
             scene.add(star);
@@ -54,7 +54,7 @@ const ThreeBackground = () => {
           });
       };
 
-      addStar(10);
+      addStar(15);
     };
 
     const handleResize = () => {
@@ -79,17 +79,17 @@ const ThreeBackground = () => {
         star.rotation.z += 0.01;
       });
 
-      const radius = 40; // Distance from the origin
-      const angle = Date.now() * 0.0001; // Angle to rotate the camera
-      const target = new THREE.Vector3(0, 0, 0); // Target point to look at
+      const radius = 40; // Radius of the circular path
+      const speed = 0.0001; // Angular speed
+      const angle = Date.now() * speed; // Calculate the angle based on time
 
-      // Calculate new camera position
-      const cameraX = Math.sin(angle) * radius;
-      const cameraZ = Math.cos(angle) * radius;
-      camera.position.set(cameraX, 0, cameraZ);
+      // Calculate the new position using trigonometry
+      const x = Math.cos(angle) * radius;
+      const z = Math.sin(angle) * radius;
 
-      // Set the camera to look at the target point
-      camera.lookAt(target);
+      camera.position.set(x, 0, z); // Set the new position of the camera
+      camera.lookAt(0, 0, 0); // Make the camera look at the origin (0, 0, 0)
+
       renderer.render(scene, camera);
       window.requestAnimationFrame(animate);
     };
