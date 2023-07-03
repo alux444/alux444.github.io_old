@@ -15,6 +15,9 @@ import { SiGithubactions } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { SiFirebase } from "react-icons/si";
+import { TbBrandThreejs } from "react-icons/tb";
+import { SiTensorflow } from "react-icons/si";
+import { SiScikitlearn } from "react-icons/si";
 
 const About = () => {
   return (
@@ -97,6 +100,9 @@ const About = () => {
                 <SiPostgresql classname="about_icons" /> PostgreSQL |
               </h4>
               <h4>
+                <TbBrandThreejs className="about_icons" /> Three.js |
+              </h4>
+              <h4>
                 <SiExpress classname="about_icons" /> ExpressJS
               </h4>
             </article>
@@ -115,8 +121,13 @@ const About = () => {
                 <SiGithubactions className="about_icons" /> Github Actions |
               </h4>
               <h4>
-                <SiTrello className="about_icons" />
-                Trello
+                <SiTrello className="about_icons" /> Trello |
+              </h4>
+              <h4>
+                <SiScikitlearn className="about_icons" /> Scikit-Learn |
+              </h4>
+              <h4>
+                <SiTensorflow className="about_icons" /> TensorFlow
               </h4>
             </article>
           </div>
