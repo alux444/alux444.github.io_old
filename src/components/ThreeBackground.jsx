@@ -37,7 +37,7 @@ const ThreeBackground = () => {
 
       const addStar = (amount) => {
         const starGeometry = new THREE.OctahedronGeometry();
-        const material = new THREE.MeshStandardMaterial({ color: "#8893de" });
+        const material = new THREE.MeshStandardMaterial({ color: "#3d4482" });
 
         Array(amount)
           .fill()
@@ -54,7 +54,7 @@ const ThreeBackground = () => {
           });
       };
 
-      addStar(15);
+      addStar(11);
     };
 
     const handleResize = () => {
@@ -74,9 +74,9 @@ const ThreeBackground = () => {
 
     const animate = () => {
       stars.forEach((star) => {
-        star.rotation.x += 0.01;
-        star.rotation.y += 0.01;
-        star.rotation.z += 0.01;
+        star.rotation.x += Math.random() * (0.015 - 0.002) + 0.002;
+        star.rotation.y += Math.random() * (0.015 - 0.002) + 0.002;
+        star.rotation.z += Math.random() * (0.015 - 0.002) + 0.002;
       });
 
       const radius = 40; // Radius of the circular path
