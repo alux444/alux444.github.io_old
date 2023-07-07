@@ -6,7 +6,7 @@ import { AiFillHtml5 } from "react-icons/ai";
 import { DiCss3 } from "react-icons/di";
 import { SiC } from "react-icons/si";
 import { AiFillGithub } from "react-icons/ai";
-import {SiPython} from "react-icons/si"
+import { SiPython } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { SiMui } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
@@ -18,13 +18,12 @@ import { SiTailwindcss } from "react-icons/si";
 import { SiFirebase } from "react-icons/si";
 import { TbBrandThreejs } from "react-icons/tb";
 import { SiTensorflow } from "react-icons/si";
-import { SiScikitlearn } from "react-icons/si";
 
 const About = () => {
   return (
     <section id="about">
       <h2>About Me</h2>
-      <div className="ab_container about_paragraph">
+      <div className="ab_container about_paragraph item">
         <p>
           Hey, I'm Alex. I'm a software engineering student situated in
           Auckland, New Zealand.
@@ -46,7 +45,7 @@ const About = () => {
       <h2>My Skills</h2>
 
       <div
-        className="container about_container"
+        className="container about_container item"
         style={{
           display: "flex",
           alignContent: "center",
@@ -54,7 +53,7 @@ const About = () => {
           flexWrap: "wrap",
         }}
       >
-        <div className="about_languages">
+        <div className="about_languages delayone item">
           <h3>Languages</h3>
           <div className="about_content">
             <article className="about_details">
@@ -65,7 +64,7 @@ const About = () => {
                 <DiJavascript1 className="about_icons" /> JavaScript |
               </h4>
               <h4>
-                <SiPython className="about_icons"/> Python |
+                <SiPython className="about_icons" /> Python |
               </h4>
               <h4>
                 <BsFiletypeSql className="about_icons" /> SQL |
@@ -84,7 +83,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="about_tools">
+        <div className="about_tools delaytwo item">
           <h3>Tools and Frameworks</h3>
           <div className="about_content">
             <article className="about_details">
@@ -113,7 +112,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="about_other">
+        <div className="about_other delaythree item">
           <h3>Other</h3>
           <div className="about_content">
             <article className="about_details">
@@ -126,9 +125,6 @@ const About = () => {
               </h4>
               <h4>
                 <SiTrello className="about_icons" /> Trello |
-              </h4>
-              <h4>
-                <SiScikitlearn className="about_icons" /> Scikit-Learn |
               </h4>
               <h4>
                 <SiTensorflow className="about_icons" /> TensorFlow

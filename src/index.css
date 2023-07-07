@@ -170,3 +170,26 @@ img {
   padding: 20px;
   color: #fff;
 }
+
+.item {
+  opacity: 0;
+  filter: blur(5px);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+}
+
+.delayone {
+  transition-delay: 100ms;
+}
+
+.delaytwo {
+  transition-delay: 200ms;
+}
+
+.delaythree {
+  transition-delay: 300ms;
+}

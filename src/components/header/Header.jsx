@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header>
       <div
-        className="container header_container"
+        className="container header_container item"
         style={{
           display: "flex",
           flexDirection: "column",

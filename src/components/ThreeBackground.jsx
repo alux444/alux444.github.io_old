@@ -62,14 +62,28 @@ const ThreeBackground = () => {
       const width = window.innerWidth;
       const height = window.innerHeight;
 
+      const originalAspectRatio = camera.aspect; // Store the original aspect ratio
+
       camera.aspect = width / height;
       camera.updateProjectionMatrix();
 
       renderer.setSize(width, height);
       renderer.setPixelRatio(window.devicePixelRatio);
 
+      // Calculate the padding based on the original aspect ratio
+      let verticalPadding;
+      if (camera.aspect < originalAspectRatio) {
+        verticalPadding = (height - width / originalAspectRatio) / 2;
+      } else {
+        verticalPadding = 0;
+      }
+
       canvas.style.width = `${width}px`;
       canvas.style.height = `${height}px`;
+
+      // Adjust the canvas position to center horizontally
+      canvas.style.marginTop = `${verticalPadding}px`;
+      canvas.style.marginBottom = `${verticalPadding}px`;
     };
 
     const animate = () => {
