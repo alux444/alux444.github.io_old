@@ -17,7 +17,7 @@ const ThreeBackground = () => {
         1000
       );
 
-      camera.position.z = 10;
+      camera.position.z = 5;
 
       renderer = new THREE.WebGLRenderer({
         antialias: true,
@@ -35,8 +35,15 @@ const ThreeBackground = () => {
       spotlight.position.set(0, 64, 32);
       scene.add(spotlight);
 
-      const addStar = (amount) => {
-        const starGeometry = new THREE.OctahedronGeometry();
+      const addStar = (amount, type) => {
+        let starGeometry = new THREE.TorusGeometry();
+
+        if (type === 1) {
+          starGeometry = new THREE.DodecahedronGeometry();
+        } else if (type === 2) {
+          starGeometry = new THREE.IcosahedronGeometry();
+        }
+
         const material = new THREE.MeshStandardMaterial({ color: "#3d4482" });
 
         Array(amount)
@@ -54,36 +61,8 @@ const ThreeBackground = () => {
           });
       };
 
-      addStar(11);
-    };
-
-    const handleResize = () => {
-      const canvas = renderer.domElement;
-      const width = window.innerWidth;
-      const height = window.innerHeight;
-
-      const originalAspectRatio = camera.aspect; // Store the original aspect ratio
-
-      camera.aspect = width / height;
-      camera.updateProjectionMatrix();
-
-      renderer.setSize(width, height);
-      renderer.setPixelRatio(window.devicePixelRatio);
-
-      // Calculate the padding based on the original aspect ratio
-      let verticalPadding;
-      if (camera.aspect < originalAspectRatio) {
-        verticalPadding = (height - width / originalAspectRatio) / 2;
-      } else {
-        verticalPadding = 0;
-      }
-
-      canvas.style.width = `${width}px`;
-      canvas.style.height = `${height}px`;
-
-      // Adjust the canvas position to center horizontally
-      canvas.style.marginTop = `${verticalPadding}px`;
-      canvas.style.marginBottom = `${verticalPadding}px`;
+      addStar(8, 1);
+      addStar(8, 2);
     };
 
     const animate = () => {
@@ -110,12 +89,6 @@ const ThreeBackground = () => {
 
     initScene();
     animate();
-
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
   }, []);
 
   return <canvas ref={canvasRef} />;
