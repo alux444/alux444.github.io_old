@@ -14,7 +14,7 @@
 .about_container > div,
 .about_paragraph {
   background: var(--color-bg-variant);
-  padding: 2.4rem 5rem;
+  padding: 2rem;
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);

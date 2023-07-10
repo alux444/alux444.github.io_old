@@ -36,11 +36,6 @@ const About = () => {
           I'm open to any opportunities that will help me grow as a software
           developer.
         </p>
-        <p>
-          I've recently been experimenting with React to create interactive and
-          responsive webapps.
-        </p>
-        <p>You can check out some of my recent projects down below.</p>
       </div>
       <h2>My Skills</h2>
 
@@ -129,6 +124,19 @@ const About = () => {
               <h4>
                 <SiTensorflow className="about_icons" /> TensorFlow
               </h4>
+            </article>
+          </div>
+        </div>
+
+        <div className="about_soft delayfour item">
+          <h3>Soft Skills</h3>
+          <div className="about_content">
+            <article className="about_details">
+              <h4>Teamwork |</h4>
+              <h4> Communication |</h4>
+              <h4> Discipline |</h4>
+              <h4> Time Management |</h4>
+              <h4> Creativity</h4>
             </article>
           </div>
         </div>
