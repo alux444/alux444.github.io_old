@@ -65,15 +65,11 @@ const About = () => {
                 <BsFiletypeSql className="about_icons" /> SQL |
               </h4>
               <h4>
-                <SiC className="about_icons" /> C |
-              </h4>
-              <h4>
                 <AiFillHtml5 className="about_icons" /> HTML |
               </h4>
               <h4>
-                <DiCss3 className="about_icons" /> CSS |
+                <DiCss3 className="about_icons" /> CSS
               </h4>
-              <h4>MATLAB</h4>
             </article>
           </div>
         </div>
@@ -86,22 +82,16 @@ const About = () => {
                 <FaReact className="about_icons" /> React |
               </h4>
               <h4>
-                <SiMui classname="about_icons" /> MaterialsUI |
-              </h4>
-              <h4>
-                <SiTailwindcss classname="about_icons" /> TailwindCSS |
-              </h4>
-              <h4>
                 <SiFirebase className="about_icons" /> Firebase |
               </h4>
               <h4>
                 <SiPostgresql classname="about_icons" /> PostgreSQL |
               </h4>
               <h4>
-                <TbBrandThreejs className="about_icons" /> Three.js |
+                <SiTailwindcss classname="about_icons" /> TailwindCSS |
               </h4>
               <h4>
-                <SiExpress classname="about_icons" /> ExpressJS
+                <TbBrandThreejs className="about_icons" /> Three.js |
               </h4>
             </article>
           </div>
@@ -117,9 +107,6 @@ const About = () => {
               </h4>
               <h4>
                 <SiGithubactions className="about_icons" /> Github Actions |
-              </h4>
-              <h4>
-                <SiTrello className="about_icons" /> Trello |
               </h4>
               <h4>
                 <SiTensorflow className="about_icons" /> TensorFlow
