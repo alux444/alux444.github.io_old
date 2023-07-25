@@ -4,16 +4,12 @@ import { DiJava } from "react-icons/di";
 import { DiJavascript1 } from "react-icons/di";
 import { AiFillHtml5 } from "react-icons/ai";
 import { DiCss3 } from "react-icons/di";
-import { SiC } from "react-icons/si";
 import { AiFillGithub } from "react-icons/ai";
 import { SiPython } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
-import { SiMui } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
-import { SiTrello } from "react-icons/si";
 import { BsFiletypeSql } from "react-icons/bs";
 import { SiGithubactions } from "react-icons/si";
-import { SiExpress } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { SiFirebase } from "react-icons/si";
 import { TbBrandThreejs } from "react-icons/tb";
@@ -111,19 +107,6 @@ const About = () => {
               <h4>
                 <SiTensorflow className="about_icons" /> TensorFlow
               </h4>
-            </article>
-          </div>
-        </div>
-
-        <div className="about_soft delayfour item">
-          <h3>Soft Skills</h3>
-          <div className="about_content">
-            <article className="about_details">
-              <h4>Teamwork |</h4>
-              <h4> Communication |</h4>
-              <h4> Discipline |</h4>
-              <h4> Time Management |</h4>
-              <h4> Creativity</h4>
             </article>
           </div>
         </div>
