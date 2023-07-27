@@ -87,7 +87,7 @@ const About = () => {
                 <SiTailwindcss classname="about_icons" /> TailwindCSS |
               </h4>
               <h4>
-                <TbBrandThreejs className="about_icons" /> Three.js |
+                <TbBrandThreejs className="about_icons" /> Three.js
               </h4>
             </article>
           </div>
