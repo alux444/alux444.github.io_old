@@ -4,13 +4,37 @@ import chatapp from "../../img/chatapp.png";
 import store from "../../img/store.png";
 import FitnessApp from "../../img/fitnessApp.png";
 import weatherApp2 from "../../img/weatherApp2.png";
+import roguelike from "../../img/roguelike.png";
 
 const Projects = () => {
   return (
     <section id="projects">
       <h2>Projects</h2>
 
-      <div className="container portfolio_container item">
+      <div className="TOTALCONT container portfolio_container item">
+        <article className="portfolio_item item">
+          <div className="portfolio_item-image">
+            <img src={roguelike} alt="roguelikeGame"></img>
+          </div>
+          <h3>Roguelike Game</h3>
+          <small>
+            A roguelike game built with Python and the tcod library, with
+            randomly generated dungeon levels, enemy npcs and consumables.
+          </small>
+          <br />
+          <p>Skills : Python, tcod</p>
+          <div className="portfolio_item-cta">
+            <a
+              href="https://github.com/alux444/roguelike-game"
+              target="_blank"
+              rel="noreferrer"
+              className="btn"
+            >
+              GitHub
+            </a>
+          </div>
+        </article>
+
         <article className="portfolio_item item">
           <div className="portfolio_item-image">
             <img src={store} alt="store" />
@@ -46,7 +70,7 @@ const Projects = () => {
 
         <article className="portfolio_item item">
           <div className="portfolio_item-image">
-            <img src={chatapp} alt="weather2" />
+            <img src={chatapp} alt="chatapp" />
           </div>
           <h3>Firebase Chatapp</h3>
           <small>
