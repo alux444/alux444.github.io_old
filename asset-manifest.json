@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.1cbfe122.css",
-    "main.js": "/static/js/main.1e0bdc07.js",
+    "main.js": "/static/js/main.4b4be05c.js",
     "static/media/me.jpg": "/static/media/me.0f11870f81a2842afd7e.jpg",
-    "static/media/cv.pdf": "/static/media/cv.a74f00a1deb281f1841c.pdf",
+    "static/media/cv.pdf": "/static/media/cv.24e27377b39d400b70a7.pdf",
     "static/media/store.png": "/static/media/store.9d2f567bdc93a00ad6d1.png",
     "static/media/chatapp.png": "/static/media/chatapp.e899552bc8e2683eb510.png",
     "static/media/fitnessApp.png": "/static/media/fitnessApp.514603ae8eda3a78d9bf.png",
+    "static/media/trackTrekker.png": "/static/media/trackTrekker.a2983d9de680b60ad2f9.png",
     "static/media/weatherApp2.png": "/static/media/weatherApp2.61e0d3bd6791b1d2c264.png",
     "static/media/roguelike.png": "/static/media/roguelike.2d17a0922789cb499c42.png",
     "index.html": "/index.html",
     "main.1cbfe122.css.map": "/static/css/main.1cbfe122.css.map",
-    "main.1e0bdc07.js.map": "/static/js/main.1e0bdc07.js.map"
+    "main.4b4be05c.js.map": "/static/js/main.4b4be05c.js.map"
   },
   "entrypoints": [
     "static/css/main.1cbfe122.css",
-    "static/js/main.1e0bdc07.js"
+    "static/js/main.4b4be05c.js"
   ]
 }
