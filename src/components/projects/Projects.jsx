@@ -15,6 +15,42 @@ const Projects = () => {
             <div className="TOTALCONT container portfolio_container item">
                 <article className="portfolio_item item">
                     <div className="portfolio_item-image">
+                        <img src={trackTrekker} alt="weather2" />
+                    </div>
+                    <h2>Im currently working on...</h2>
+                    <h3>TrackTrekker</h3>
+                    <small>
+                        An app which recommends songs based off a selected
+                        criteria, using the Spotify API.
+                    </small>
+                    <small>
+                        Features are continuously being added, bugs fixed, and a
+                        feedback cycle is used to constantly improve the app.
+                    </small>
+                    <br />
+                    <p>Skills: React, TypeScript, SpotifyAPI</p>
+                    <div className="portfolio_item-cta">
+                        <a
+                            href="https://github.com/alux444/tracktrekker"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="btn"
+                        >
+                            GitHub
+                        </a>
+                        <a
+                            href="https://alux444.github.io/tracktrekker/"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="btn"
+                        >
+                            Link
+                        </a>
+                    </div>
+                </article>
+
+                <article className="portfolio_item item">
+                    <div className="portfolio_item-image">
                         <img src={roguelike} alt="roguelikeGame"></img>
                     </div>
                     <h3>Roguelike Game</h3>
@@ -168,37 +204,6 @@ const Projects = () => {
                         </a>
                         <a
                             href="https://alux444.github.io/project-fitness"
-                            target="_blank"
-                            rel="noreferrer"
-                            className="btn"
-                        >
-                            Link
-                        </a>
-                    </div>
-                </article>
-
-                <article className="portfolio_item item">
-                    <div className="portfolio_item-image">
-                        <img src={trackTrekker} alt="weather2" />
-                    </div>
-                    <h2>Im currently working on...</h2>
-                    <h3>TrackTrekker</h3>
-                    <small>
-                        An app which recommends songs based off a selected
-                        criteria, using the Spotify API.
-                    </small>
-                    <br />
-                    <div className="portfolio_item-cta">
-                        <a
-                            href="https://github.com/alux444/tracktrekker"
-                            target="_blank"
-                            rel="noreferrer"
-                            className="btn"
-                        >
-                            GitHub
-                        </a>
-                        <a
-                            href="https://alux444.github.io/tracktrekker/"
                             target="_blank"
                             rel="noreferrer"
                             className="btn"
