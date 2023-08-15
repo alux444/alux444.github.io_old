@@ -24,8 +24,8 @@ const Projects = () => {
                         criteria, using the Spotify API.
                     </small>
                     <small>
-                        Features are continuously being added, bugs fixed, and a
-                        feedback cycle is used to constantly improve the app.
+                        This project utilizes CI/CD practice to collect user
+                        feedback and continuially improve the app.
                     </small>
                     <br />
                     <p>Skills: React, TypeScript, SpotifyAPI</p>
@@ -120,7 +120,6 @@ const Projects = () => {
                     <br />
                     <p>
                         Skills : ReactJS, Firebase, JavaScript, GitHub Actions
-                        (CICD)
                     </p>
                     <div className="portfolio_item-cta">
                         <a
