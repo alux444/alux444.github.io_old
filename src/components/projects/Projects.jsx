@@ -17,7 +17,6 @@ const Projects = () => {
                     <div className="portfolio_item-image">
                         <img src={trackTrekker} alt="weather2" />
                     </div>
-                    <h2>Im currently working on...</h2>
                     <h3>TrackTrekker</h3>
                     <small>
                         An app which recommends songs based off a selected
@@ -26,6 +25,12 @@ const Projects = () => {
                     <small>
                         This project utilizes CI/CD practice to collect user
                         feedback and continuially improve the app.
+                    </small>
+                    <br />
+                    <small>
+                        Cypress is incorporated to the Actions Workflow for
+                        end-to-end testing, ensuring a functional deployment
+                        everytime.
                     </small>
                     <br />
                     <p>Skills: React, TypeScript, SpotifyAPI</p>

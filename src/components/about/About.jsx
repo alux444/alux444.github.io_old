@@ -15,6 +15,7 @@ import { SiTailwindcss } from "react-icons/si";
 import { SiFirebase } from "react-icons/si";
 import { TbBrandThreejs } from "react-icons/tb";
 import { SiTensorflow } from "react-icons/si";
+import { SiCypress } from "react-icons/si";
 
 const About = () => {
     return (
@@ -27,7 +28,7 @@ const About = () => {
                 </p>
                 <p>
                     I'm on the search for any summer 2023 internship
-                    opportunities in New Zealand or Australia.
+                    opportunities.
                 </p>
                 <p>
                     I'm open to any opportunities that will help me grow as a
@@ -108,6 +109,10 @@ const About = () => {
                     <div className="about_content">
                         <article className="about_details">
                             <h4>CI/CD Practice | </h4>
+                            <h4>
+                                {" "}
+                                <SiCypress classname="about_icons" /> Cypress |
+                            </h4>
                             <h4>
                                 <AiFillGithub className="about_icons" /> Git /
                                 GitHub |
