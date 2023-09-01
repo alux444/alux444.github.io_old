@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.1cbfe122.css",
-    "main.js": "/static/js/main.3fa25b3c.js",
+    "main.js": "/static/js/main.c8477dd6.js",
     "static/media/me.jpg": "/static/media/me.0f11870f81a2842afd7e.jpg",
-    "static/media/trackTrekker.png": "/static/media/trackTrekker.ffabd9210ca03afde118.png",
+    "static/media/trackTrekker.png": "/static/media/trackTrekker.6710c40cb4630e321f21.png",
+    "static/media/cv.pdf": "/static/media/cv.000cfb1bced02bd00f7c.pdf",
     "static/media/store.png": "/static/media/store.9d2f567bdc93a00ad6d1.png",
     "static/media/chatapp.png": "/static/media/chatapp.e899552bc8e2683eb510.png",
     "static/media/fitnessApp.png": "/static/media/fitnessApp.514603ae8eda3a78d9bf.png",
-    "static/media/cv.pdf": "/static/media/cv.9c8e84c9595d10aff225.pdf",
     "static/media/weatherApp2.png": "/static/media/weatherApp2.61e0d3bd6791b1d2c264.png",
     "static/media/roguelike.png": "/static/media/roguelike.2d17a0922789cb499c42.png",
     "index.html": "/index.html",
     "main.1cbfe122.css.map": "/static/css/main.1cbfe122.css.map",
-    "main.3fa25b3c.js.map": "/static/js/main.3fa25b3c.js.map"
+    "main.c8477dd6.js.map": "/static/js/main.c8477dd6.js.map"
   },
   "entrypoints": [
     "static/css/main.1cbfe122.css",
-    "static/js/main.3fa25b3c.js"
+    "static/js/main.c8477dd6.js"
   ]
 }
