@@ -16,6 +16,7 @@ import { SiFirebase } from "react-icons/si";
 import { TbBrandThreejs } from "react-icons/tb";
 import { SiTensorflow } from "react-icons/si";
 import { SiCypress } from "react-icons/si";
+import { SiNodedotjs } from "react-icons/si";
 
 const About = () => {
     return (
@@ -95,6 +96,9 @@ const About = () => {
                             <h4>
                                 <SiTailwindcss classname="about_icons" />{" "}
                                 TailwindCSS |
+                            </h4>
+                            <h4>
+                                <SiNodedotjs classname="about_icons" /> NodeJS |
                             </h4>
                             <h4>
                                 <TbBrandThreejs className="about_icons" />{" "}
