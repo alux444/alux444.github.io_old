@@ -24,16 +24,25 @@ const About = () => {
             <h2>About Me</h2>
             <div className="ab_container about_paragraph item">
                 <p>
-                    Hey, I'm Alex. I'm a software engineering student situated
-                    in Auckland, New Zealand.
+                    Hey, I'm Alex. I'm a passionate second year software
+                    engineering student situated in Auckland, New Zealand.
                 </p>
                 <p>
-                    I'm on the search for any summer 2023 internship
-                    opportunities.
+                    I'm on the search for any internship opportunities that will
+                    help me grow as a software engineer.
+                </p>
+                <br />
+                <p>
+                    Currently, I'm learning React through creating projects that
+                    emphasize automated deployment and testing.
                 </p>
                 <p>
-                    I'm open to any opportunities that will help me grow as a
-                    software developer.
+                    {" "}
+                    My project philosophy revolves around prioritizing
+                    user-centric design and functionality, where I have actively
+                    seeked out feedback and advice from both users, designers
+                    and other developers to futher improve my understanding of
+                    software developement.
                 </p>
             </div>
             <h2>My Skills</h2>
