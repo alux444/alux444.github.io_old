@@ -14,9 +14,9 @@ import { SiGithubactions } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { SiFirebase } from "react-icons/si";
 import { TbBrandThreejs } from "react-icons/tb";
-import { SiTensorflow } from "react-icons/si";
 import { SiCypress } from "react-icons/si";
 import { SiNodedotjs } from "react-icons/si";
+import { SiSelenium } from "react-icons/si";
 
 const About = () => {
     return (
@@ -121,10 +121,14 @@ const About = () => {
                     <h3>Other</h3>
                     <div className="about_content">
                         <article className="about_details">
-                            <h4>CI/CD Practice | </h4>
+                            <h4>CI/CD | Agile | </h4>
                             <h4>
                                 {" "}
                                 <SiCypress classname="about_icons" /> Cypress |
+                            </h4>
+                            <h4>
+                                <SiSelenium className="about_icons" /> Selenium
+                                |
                             </h4>
                             <h4>
                                 <AiFillGithub className="about_icons" /> Git /
@@ -132,11 +136,7 @@ const About = () => {
                             </h4>
                             <h4>
                                 <SiGithubactions className="about_icons" />{" "}
-                                Github Actions |
-                            </h4>
-                            <h4>
-                                <SiTensorflow className="about_icons" />{" "}
-                                TensorFlow
+                                Github Actions
                             </h4>
                         </article>
                     </div>

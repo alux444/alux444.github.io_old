@@ -23,8 +23,8 @@ const Projects = () => {
                         criteria, using the Spotify API.
                     </small>
                     <small>
-                        This project utilizes CI/CD practice to collect user
-                        feedback and continuially improve the app.
+                        This project utilizes CI/CD and Agile practice to
+                        collect user feedback and continuially improve the app.
                     </small>
                     <br />
                     <small>
