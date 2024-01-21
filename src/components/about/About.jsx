@@ -16,7 +16,10 @@ import { SiFirebase } from "react-icons/si";
 import { TbBrandThreejs } from "react-icons/tb";
 import { SiCypress } from "react-icons/si";
 import { SiNodedotjs } from "react-icons/si";
+import { SiPlaywright } from "react-icons/si";
 import { SiSelenium } from "react-icons/si";
+import { SiMicrosoftazure } from "react-icons/si";
+import Experience from "../experience/experience.jsx";
 
 const About = () => {
     return (
@@ -24,7 +27,7 @@ const About = () => {
             <h2>About Me</h2>
             <div className="ab_container about_paragraph item">
                 <p>
-                    Hey, I'm Alex. I'm a passionate second year software
+                    Hey, I'm Alex. I'm a penultimate year software
                     engineering student situated in Auckland, New Zealand.
                 </p>
                 <p>
@@ -32,19 +35,11 @@ const About = () => {
                     help me grow as a software engineer.
                 </p>
                 <br />
-                <p>
-                    Currently, I'm learning React through creating projects that
-                    emphasize automated deployment and testing.
-                </p>
-                <p>
-                    {" "}
-                    My project philosophy revolves around prioritizing
-                    user-centric design and functionality, where I have actively
-                    seeked out feedback and advice from both users, designers
-                    and other developers to futher improve my understanding of
-                    software developement.
-                </p>
+                <p>This Summer, I've had the opportunity to intern at Spark NZ, as a part of their ERP Test Automation squad.</p>
             </div>
+
+            <Experience/>
+
             <h2>My Skills</h2>
 
             <div
@@ -124,10 +119,17 @@ const About = () => {
                             <h4>CI/CD | Agile | </h4>
                             <h4>
                                 {" "}
+                                <SiPlaywright classname="about_icons" /> Playwright |
+                            </h4>
+                            <h4>
                                 <SiCypress classname="about_icons" /> Cypress |
                             </h4>
                             <h4>
                                 <SiSelenium className="about_icons" /> Selenium
+                                |
+                            </h4>
+                            <h4>
+                                <SiMicrosoftazure className="about_icons" /> Azure 
                                 |
                             </h4>
                             <h4>
@@ -141,6 +143,7 @@ const About = () => {
                         </article>
                     </div>
                 </div>
+                
             </div>
         </section>
     );
