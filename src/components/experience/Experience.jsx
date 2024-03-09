@@ -8,7 +8,7 @@ const Experience = () => {
                 <h2>Spark NZ</h2>
                 <b>Software Engineer</b>
                 <small>Feb 2023 - Present</small>
-                <small>• Continued work in the ERP Test Automation Squad</small>
+                <small>• Continued work developing and maintaining automated test cases.</small>
                 <br/>
                 <b>Software Engineering Intern</b>
                 <small>November 2023 - Feb 2023</small>
